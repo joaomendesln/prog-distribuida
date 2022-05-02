@@ -1,6 +1,7 @@
 package com.authentication.rmi;
 
 
+import java.io.Console;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
@@ -18,46 +19,51 @@ public class Main {
 		AuthServerInterface server = (AuthServerInterface)Naming.lookup("rmi://127.0.0.1:1099/AuthServer");
 		
 		Scanner sc = new Scanner(System.in);
+
+		Console console = System.console();
 		int op = -1;
 		
 		try{
 			while (op != 0) {
 				switch(op) {
 				case 1:
-					System.out.println("----- TELA DE CADASTRO -----");
+					clearScreen();
+					System.out.println("----- CADASTRO -----\n");
 					Boolean registred = false;
 					while(!registred) {
 						System.out.print("Digite seu nome: ");
 						String nameRegistration = sc.nextLine();
 						System.out.print("Digite seu login: ");
 						String loginRegistration = sc.nextLine();
-						System.out.print("Digite sua senha: ");
-						String passwordRegistration = sc.nextLine(); // modo de senha
-						System.out.print("Confirme sua senha: ");
-						String passwordCheckRegistration = sc.nextLine(); // modo de senha
+						char[] passwordRegistration = System.console().readPassword("Digite sua senha: ");
+						char[] passwordCheckRegistration = System.console().readPassword("Confirme sua senha: ");
+						System.out.println();
 						
-						User user = new User(loginRegistration, nameRegistration, passwordRegistration, 0);
+						User user = new User(loginRegistration, nameRegistration, String.valueOf(passwordRegistration), 0);
 						
 						// login já existe
-						if (server.findByLogin(loginRegistration) != null) {
-							System.out.println("ERRO: Já existe um usuário com esse login");
+						if (server.findUserByLogin(loginRegistration) != null) {
+							System.out.println("ERRO: Já existe um usuário com esse login\n");
 						}
 						// senha não confere
-						else if (!passwordRegistration.equals(passwordCheckRegistration)) {
-							System.out.println("ERRO: Senhas não conferem");
+						else if (!String.valueOf(passwordRegistration).equals(String.valueOf(passwordCheckRegistration))) {
+							System.out.println("ERRO: Senhas não conferem\n");
 						}
 						
-						// deseja tentar cadastrar novamente?
-						if (server.findByLogin(loginRegistration) != null || !passwordRegistration.equals(passwordCheckRegistration)) {
+						// deseja tentar se cadastrar novamente?
+						if (server.findUserByLogin(loginRegistration) != null || !String.valueOf(passwordRegistration).equals(String.valueOf(passwordCheckRegistration))) {
 							System.out.println("Deseja tentar se cadastrar novamente?"
 									+ "\n0 - Não"
 									+ "\n1 - Sim");
 							int opRegistration = Integer.parseInt(sc.nextLine());
-							if (opRegistration == 0) registred = true;
-							if (opRegistration == 1) registred = false;
+							if (opRegistration == 0) { registred = true; 
+							clearScreen(); }
+							if (opRegistration == 1)  { registred = false; 
+							System.out.println(); }
 						}
 						else {
-							server.register(user);
+							clearScreen();
+							server.insertUser(user);
 							System.out.println("Cadastro realizado com sucesso!\n");
 							registred = true;
 						}
@@ -65,39 +71,42 @@ public class Main {
 					
 					break;
 				case 2:
-					System.out.println("----- TELA LOGIN -----");
+					clearScreen();
+					System.out.println("----- LOGIN -----\n");
 					Boolean logged = false, exit = false;
 					while (!logged && !exit) {
 						System.out.print("Digite seu login: ");
 						String loginLogin = sc.nextLine();
-						System.out.print("Digite sua senha: ");
-//						char[] password = System.console().readPassword("digite sua senha: ");
-						String passwordLogin = sc.nextLine(); // modo de senha2
+						char[] passwordLogin = System.console().readPassword("Digite sua senha: ");
 						// tentativa de logar;
-						User user = new User(loginLogin, passwordLogin);
+						System.out.println();
+						User user = new User(loginLogin, String.valueOf(passwordLogin));
 
 						
 						// login não existe
-						if (server.findByLogin(loginLogin) == null) {
-							System.out.println("ERRO: Esse usuário não existe");
+						if (server.findUserByLogin(loginLogin) == null) {
+							System.out.println("ERRO: Esse usuário não existe\n");
 						}
 						// senha incorreta
-						else if (!server.findByLogin(loginLogin).getPassword().equals(passwordLogin)) {
-							System.out.println("ERRO: Senha incorreta");
+						else if (!server.findUserByLogin(loginLogin).getPassword().equals(String.valueOf(passwordLogin))) {
+							System.out.println("ERRO: Senha incorreta\n");
 						}
 						
-						if (server.findByLogin(loginLogin) == null || !server.findByLogin(loginLogin).getPassword().equals(passwordLogin)) {
+						if (server.findUserByLogin(loginLogin) == null || !server.findUserByLogin(loginLogin).getPassword().equals(String.valueOf(passwordLogin))) {
 							System.out.println("Deseja tentar logar novamente?"
 									+ "\n0 - Não"
 									+ "\n1 - Sim");
 							int opRegistration = Integer.parseInt(sc.nextLine());
-							if (opRegistration == 0) logged = true;
-							if (opRegistration == 1) logged = false;
+							if (opRegistration == 0)  { logged = true; 
+							clearScreen(); }
+							if (opRegistration == 1)  { logged = false; 
+							System.out.println(); }
 						}
 						// logou com sucesso
 						else {
-							User userLogged = server.findByLogin(loginLogin);
-							System.out.println("Olá, " + userLogged.getName() + "!");
+							clearScreen();
+							User userLogged = server.findUserByLogin(loginLogin);
+							System.out.println("Olá, " + userLogged.getName() + "!\n");
 							
 							int opLogged = -1;
 							try {
@@ -105,9 +114,11 @@ public class Main {
 									switch(opLogged) {
 									case 1:
 										if (userLogged.getPermission() != 0) {
+											clearScreen();
+											System.out.println("----- TODOS OS BENS -----\n");
 											ArrayList<Good> goods = server.listGoods();
 											if (goods.size() == 0) {
-												System.out.println("Ainda não há bens cadastrados.");
+												System.out.println("Ainda não há bens cadastrados.\n");
 											}
 											else {
 												int goodNameLength = greatestGoodNameLength(goods);
@@ -122,14 +133,17 @@ public class Main {
 												}
 												
 												System.out.println(stringHyphen(goodNameLength + goodOwnerNameLength + 7));
+												System.out.println();
 											}
 										}
 										break;
 									case 2:
 										if (userLogged.getPermission() != 0) {
+											clearScreen();
+											System.out.println("----- MEUS BENS -----\n");
 											ArrayList<Good> goodsByOwner = server.listGoodsByOwner(userLogged);
 											if (goodsByOwner.size() == 0) {
-												System.out.println("Você ainda não cadastrou um bem.");
+												System.out.println("Você ainda não cadastrou um bem.\n");
 											}
 											else {
 												int goodNameLength = greatestGoodNameLength(goodsByOwner);
@@ -143,13 +157,18 @@ public class Main {
 												}
 												
 												System.out.println(stringHyphen(goodNameLength + 4));
+												System.out.println();
 											}
 										}
 										break;
 									case 3:
 										if (userLogged.getPermission() == 2) {
+											clearScreen();
+											System.out.println("----- INSERÇÃO DE BEM -----\n");
 											System.out.print("Digite o nome do bem a ser inserido: ");
 											String goodNameInsertion = sc.nextLine();
+
+											clearScreen();
 											server.insertGood(new Good(goodNameInsertion, userLogged));
 											System.out.println("Bem inserido com sucesso!\n");
 										}
@@ -157,14 +176,17 @@ public class Main {
 									}
 									
 									if (userLogged.getPermission() == 0)
-										System.out.println("Você não possui permissão para listar os bens cadastrados");
+										System.out.println("Você não possui permissão para listar os bens cadastrados.\n");
 									
 									System.out.println("----- MENU -----");
 									if (userLogged.getPermission() != 0) System.out.println("1 - Listar todos os bens");
 									if (userLogged.getPermission() == 2) System.out.println("2 - Listar meus bens\n3 - Inserir bem");
 									System.out.println("0 - Sair");
 									opLogged = Integer.parseInt(sc.nextLine());
-									if (opLogged == 0) exit = true;
+									if (opLogged == 0) {
+										exit = true;
+										clearScreen();
+									}
 									
 								}
 							}
@@ -185,6 +207,10 @@ public class Main {
         }
 		
 		sc.close();
+	}
+	
+	public static void clearScreen() {
+        System.out.print("\033[H\033[2J");
 	}
 	
 	public static String stringBlank(int length) {
