@@ -138,7 +138,7 @@ public class Main {
 										}
 										break;
 									case 2:
-										if (userLogged.getPermission() != 0) {
+										if (userLogged.getPermission() == 2) {
 											clearScreen();
 											System.out.println("----- MEUS BENS -----\n");
 											ArrayList<Good> goodsByOwner = server.listGoodsByOwner(userLogged);
