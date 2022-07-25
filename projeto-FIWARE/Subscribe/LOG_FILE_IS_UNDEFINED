@@ -1,0 +1,372 @@
+2022-07-25 01:47:10.601  INFO 56341 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 56341 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 01:47:10.603  INFO 56341 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 01:47:11.290  INFO 56341 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2022-07-25 01:47:11.300  INFO 56341 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 01:47:11.300  INFO 56341 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 01:47:11.364  INFO 56341 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 01:47:11.364  INFO 56341 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 720 ms
+2022-07-25 01:47:11.617  INFO 56341 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/Subscribe'
+2022-07-25 01:47:11.624  INFO 56341 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.449 seconds (JVM running for 6.691)
+2022-07-25 01:47:14.489  INFO 56341 --- [http-nio-8086-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 01:47:14.489  INFO 56341 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 01:47:14.490  INFO 56341 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 02:04:36.089  INFO 57343 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57343 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:04:36.092  INFO 57343 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:04:36.930  INFO 57343 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-07-25 02:04:36.941  INFO 57343 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:04:36.941  INFO 57343 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:04:37.024  INFO 57343 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:04:37.025  INFO 57343 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 893 ms
+2022-07-25 02:04:37.316  INFO 57343 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/Subscribe'
+2022-07-25 02:04:37.323  INFO 57343 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.802 seconds (JVM running for 7.105)
+2022-07-25 02:06:15.652  INFO 57515 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57515 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:06:15.654  INFO 57515 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:06:16.377  INFO 57515 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-25 02:06:16.386  INFO 57515 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:06:16.386  INFO 57515 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:06:16.452  INFO 57515 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:06:16.452  INFO 57515 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 761 ms
+2022-07-25 02:06:16.735  INFO 57515 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Subscribe'
+2022-07-25 02:06:16.741  INFO 57515 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.498 seconds (JVM running for 6.744)
+2022-07-25 02:06:20.026  INFO 57533 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57533 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:06:20.028  INFO 57533 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:06:20.634  INFO 57533 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 02:06:20.642  INFO 57533 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:06:20.642  INFO 57533 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:06:20.696  INFO 57533 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:06:20.696  INFO 57533 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 635 ms
+2022-07-25 02:06:20.917  INFO 57533 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 02:06:20.924  INFO 57533 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.248 seconds (JVM running for 6.476)
+2022-07-25 02:08:38.007  INFO 57750 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57750 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:08:38.009  INFO 57750 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:08:38.687  INFO 57750 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 02:08:38.697  INFO 57750 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:08:38.697  INFO 57750 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:08:38.762  INFO 57750 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:08:38.762  INFO 57750 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2022-07-25 02:08:38.808  INFO 57751 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57751 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:08:38.810  INFO 57751 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:08:39.041  INFO 57750 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 02:08:39.048  INFO 57750 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.436 seconds (JVM running for 6.698)
+2022-07-25 02:08:39.415  INFO 57751 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-25 02:08:39.423  INFO 57751 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:08:39.423  INFO 57751 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:08:39.479  INFO 57751 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:08:39.479  INFO 57751 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2022-07-25 02:08:39.696  INFO 57751 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Subscribe'
+2022-07-25 02:08:39.703  INFO 57751 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.239 seconds (JVM running for 6.453)
+2022-07-25 02:08:46.801  INFO 57751 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 02:08:46.801  INFO 57751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 02:08:46.802  INFO 57751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 02:09:16.873  INFO 57750 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 02:09:16.873  INFO 57750 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 02:09:16.874  INFO 57750 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 02:11:03.188  INFO 57926 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 57926 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 02:11:03.190  INFO 57926 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 02:11:03.874  INFO 57926 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 02:11:03.901  INFO 57926 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 02:11:03.901  INFO 57926 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 02:11:03.973  INFO 57926 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 02:11:03.973  INFO 57926 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2022-07-25 02:11:04.245  INFO 57926 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 02:11:04.251  INFO 57926 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.425 seconds (JVM running for 6.656)
+2022-07-25 02:11:07.604  INFO 57926 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 02:11:07.604  INFO 57926 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 02:11:07.605  INFO 57926 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 08:43:55.983  INFO 64212 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64212 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:43:55.985  INFO 64212 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:43:56.651  INFO 64214 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64214 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:43:56.653  INFO 64214 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:43:56.816  INFO 64212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 08:43:56.829  INFO 64212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:43:56.829  INFO 64212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:43:56.912  INFO 64212 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:43:56.912  INFO 64212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 888 ms
+2022-07-25 08:43:57.200  INFO 64212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 08:43:57.207  INFO 64212 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.753 seconds (JVM running for 7.077)
+2022-07-25 08:43:57.288  INFO 64214 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 08:43:57.296  INFO 64214 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:43:57.296  INFO 64214 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:43:57.353  INFO 64214 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:43:57.353  INFO 64214 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2022-07-25 08:43:57.571  INFO 64214 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 08:43:57.577  INFO 64214 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.278 seconds (JVM running for 6.499)
+2022-07-25 08:44:04.581  INFO 64214 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 08:44:04.581  INFO 64214 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 08:44:04.582  INFO 64214 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 08:50:41.037  INFO 64703 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64703 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:50:41.040  INFO 64703 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:50:41.552  INFO 64706 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64706 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:50:41.553  INFO 64706 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:50:41.816  INFO 64703 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 08:50:41.826  INFO 64703 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:50:41.827  INFO 64703 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:50:41.895  INFO 64703 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:50:41.895  INFO 64703 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2022-07-25 08:50:42.180  INFO 64703 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 08:50:42.187  INFO 64703 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.617 seconds (JVM running for 6.914)
+2022-07-25 08:50:42.200  INFO 64706 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 08:50:42.208  INFO 64706 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:50:42.209  INFO 64706 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:50:42.266  INFO 64706 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:50:42.266  INFO 64706 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 674 ms
+2022-07-25 08:50:42.488  INFO 64706 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 08:50:42.501  INFO 64706 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.302 seconds (JVM running for 6.527)
+2022-07-25 08:50:49.811  INFO 64703 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 08:50:49.811  INFO 64703 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 08:50:49.812  INFO 64703 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 08:52:13.734  INFO 64856 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64856 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:52:13.737  INFO 64856 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:52:14.417  INFO 64856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 08:52:14.425  INFO 64856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:52:14.425  INFO 64856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:52:14.445  INFO 64859 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64859 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:52:14.447  INFO 64859 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:52:14.495  INFO 64856 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:52:14.495  INFO 64856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 721 ms
+2022-07-25 08:52:14.762  INFO 64856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 08:52:14.772  INFO 64856 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.456 seconds (JVM running for 6.791)
+2022-07-25 08:52:15.067  INFO 64859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 08:52:15.074  INFO 64859 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:52:15.074  INFO 64859 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:52:15.132  INFO 64859 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:52:15.133  INFO 64859 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2022-07-25 08:52:15.356  INFO 64859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 08:52:15.362  INFO 64859 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.256 seconds (JVM running for 6.472)
+2022-07-25 08:52:19.645  INFO 64856 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 08:52:19.645  INFO 64856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 08:52:19.646  INFO 64856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 08:52:49.406  INFO 64949 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64949 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:52:49.408  INFO 64949 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:52:50.077  INFO 64949 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 08:52:50.085  INFO 64949 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:52:50.085  INFO 64949 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:52:50.149  INFO 64949 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:52:50.150  INFO 64949 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 703 ms
+2022-07-25 08:52:50.341  INFO 64951 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 64951 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 08:52:50.344  INFO 64951 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 08:52:50.450  INFO 64949 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 08:52:50.460  INFO 64949 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.442 seconds (JVM running for 6.7)
+2022-07-25 08:52:50.977  INFO 64951 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 08:52:50.984  INFO 64951 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 08:52:50.984  INFO 64951 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 08:52:51.057  INFO 64951 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 08:52:51.058  INFO 64951 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 677 ms
+2022-07-25 08:52:51.296  INFO 64951 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 08:52:51.302  INFO 64951 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.3 seconds (JVM running for 6.517)
+2022-07-25 08:52:55.092  INFO 64949 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 08:52:55.092  INFO 64949 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 08:52:55.093  INFO 64949 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 08:53:04.525  INFO 64951 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 08:53:04.525  INFO 64951 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 08:53:04.525  INFO 64951 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 09:06:13.730  INFO 65825 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 65825 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 09:06:13.732  INFO 65825 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:06:14.437  INFO 65825 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 09:06:14.446  INFO 65825 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:06:14.447  INFO 65825 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:06:14.519  INFO 65825 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:06:14.519  INFO 65825 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2022-07-25 09:06:14.856  INFO 65825 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 09:06:14.878  INFO 65825 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.543 seconds (JVM running for 6.827)
+2022-07-25 09:07:03.583  INFO 65915 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 65915 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 09:07:03.585  INFO 65915 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:07:04.248  INFO 65915 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 09:07:04.256  INFO 65915 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:07:04.256  INFO 65915 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:07:04.319  INFO 65915 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:07:04.319  INFO 65915 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 694 ms
+2022-07-25 09:07:04.574  INFO 65915 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 09:07:04.580  INFO 65915 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.373 seconds (JVM running for 6.627)
+2022-07-25 09:07:23.929  INFO 65915 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 09:07:23.930  INFO 65915 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 09:07:23.935  INFO 65915 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-07-25 09:38:58.495  INFO 68275 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 68275 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 09:38:58.497  INFO 68275 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:38:59.319  INFO 68275 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 09:38:59.330  INFO 68275 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:38:59.330  INFO 68275 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:38:59.412  INFO 68275 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:38:59.413  INFO 68275 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
+2022-07-25 09:38:59.716  INFO 68275 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 09:38:59.724  INFO 68275 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.76 seconds (JVM running for 7.052)
+2022-07-25 09:39:01.734  INFO 68290 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 68290 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 09:39:01.736  INFO 68290 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:39:02.403  INFO 68290 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 09:39:02.412  INFO 68290 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:39:02.412  INFO 68290 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:39:02.474  INFO 68290 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:39:02.474  INFO 68290 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 700 ms
+2022-07-25 09:39:02.727  INFO 68290 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 09:39:02.733  INFO 68290 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.385 seconds (JVM running for 6.621)
+2022-07-25 09:39:18.266  INFO 68275 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 09:39:18.267  INFO 68275 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 09:39:18.267  INFO 68275 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 09:39:19.681  INFO 68290 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 09:39:19.682  INFO 68290 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 09:39:19.682  INFO 68290 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 09:41:23.752  INFO 68477 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 68477 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 09:41:23.755  INFO 68477 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:41:24.453  INFO 68477 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 09:41:24.461  INFO 68477 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:41:24.462  INFO 68477 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:41:24.527  INFO 68477 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:41:24.528  INFO 68477 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 728 ms
+2022-07-25 09:41:24.798  INFO 68477 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 09:41:24.805  INFO 68477 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.431 seconds (JVM running for 6.733)
+2022-07-25 09:41:37.638  INFO 68477 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 09:41:37.639  INFO 68477 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 09:41:37.640  INFO 68477 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:02:41.921  INFO 69926 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 69926 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:02:41.924  INFO 69926 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:02:42.775  INFO 69926 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 10:02:42.789  INFO 69926 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:02:42.790  INFO 69926 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:02:42.884  INFO 69926 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:02:42.885  INFO 69926 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2022-07-25 10:02:43.201  INFO 69926 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 10:02:43.208  INFO 69926 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.853 seconds (JVM running for 7.158)
+2022-07-25 10:02:47.856  INFO 69926 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:02:47.856  INFO 69926 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:02:47.856  INFO 69926 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 10:04:02.436  INFO 70082 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70082 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:04:02.438  INFO 70082 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:04:03.199  INFO 70082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:04:03.210  INFO 70082 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:04:03.210  INFO 70082 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:04:03.304  INFO 70082 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:04:03.305  INFO 70082 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2022-07-25 10:04:03.579  INFO 70082 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:04:03.586  INFO 70082 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.578 seconds (JVM running for 6.845)
+2022-07-25 10:04:05.757  INFO 70082 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:04:05.757  INFO 70082 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:04:05.758  INFO 70082 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:04:35.413  INFO 70133 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70133 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:04:35.417  INFO 70133 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:04:36.267  INFO 70133 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 10:04:36.277  INFO 70133 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:04:36.277  INFO 70133 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:04:36.344  INFO 70133 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:04:36.344  INFO 70133 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 862 ms
+2022-07-25 10:04:36.616  INFO 70133 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 10:04:36.622  INFO 70133 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.652 seconds (JVM running for 6.916)
+2022-07-25 10:06:49.219  INFO 70303 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70303 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:06:49.223  INFO 70303 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:06:49.983  INFO 70303 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:06:49.993  INFO 70303 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:06:49.993  INFO 70303 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:06:50.059  INFO 70303 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:06:50.059  INFO 70303 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2022-07-25 10:06:50.341  INFO 70303 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:06:50.350  INFO 70303 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.56 seconds (JVM running for 6.828)
+2022-07-25 10:06:54.635  INFO 70303 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:06:54.635  INFO 70303 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:06:54.636  INFO 70303 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:07:34.084  INFO 70379 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70379 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:07:34.086  INFO 70379 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:07:34.834  INFO 70379 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:07:34.844  INFO 70379 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:07:34.844  INFO 70379 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:07:34.910  INFO 70379 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:07:34.910  INFO 70379 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2022-07-25 10:07:35.177  INFO 70379 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:07:35.184  INFO 70379 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.543 seconds (JVM running for 6.808)
+2022-07-25 10:07:37.143  INFO 70379 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:07:37.143  INFO 70379 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:07:37.143  INFO 70379 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 10:08:24.318  INFO 70458 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70458 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:08:24.320  INFO 70458 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:08:25.112  INFO 70458 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:08:25.122  INFO 70458 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:08:25.122  INFO 70458 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:08:25.194  INFO 70458 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:08:25.194  INFO 70458 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 833 ms
+2022-07-25 10:08:25.490  INFO 70458 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:08:25.496  INFO 70458 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.663 seconds (JVM running for 6.921)
+2022-07-25 10:08:27.339  INFO 70458 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:08:27.339  INFO 70458 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:08:27.340  INFO 70458 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:09:02.038  INFO 70523 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70523 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:09:02.040  INFO 70523 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:09:02.786  INFO 70523 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:09:02.796  INFO 70523 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:09:02.797  INFO 70523 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:09:02.874  INFO 70523 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:09:02.874  INFO 70523 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2022-07-25 10:09:03.143  INFO 70523 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:09:03.149  INFO 70523 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.526 seconds (JVM running for 6.785)
+2022-07-25 10:09:04.498  INFO 70523 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:09:04.498  INFO 70523 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:09:04.499  INFO 70523 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:13:38.817  INFO 70899 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70899 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:13:38.819  INFO 70899 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:13:39.658  INFO 70899 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 10:13:39.671  INFO 70899 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:13:39.671  INFO 70899 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:13:39.773  INFO 70899 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:13:39.773  INFO 70899 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 909 ms
+2022-07-25 10:13:40.110  INFO 70899 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 10:13:40.118  INFO 70899 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.92 seconds (JVM running for 7.282)
+2022-07-25 10:13:40.133  INFO 70902 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 70902 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:13:40.135  INFO 70902 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:13:40.740  INFO 70902 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 10:13:40.747  INFO 70902 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:13:40.747  INFO 70902 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:13:40.805  INFO 70902 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:13:40.805  INFO 70902 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 634 ms
+2022-07-25 10:13:41.025  INFO 70902 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 10:13:41.031  INFO 70902 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.252 seconds (JVM running for 6.475)
+2022-07-25 10:14:09.904  INFO 70899 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:14:09.905  INFO 70899 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:14:09.905  INFO 70899 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 10:14:12.428  INFO 70902 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:14:12.428  INFO 70902 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:14:12.429  INFO 70902 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 10:15:36.391  INFO 71053 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 71053 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 10:15:36.394  INFO 71053 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 10:15:37.092  INFO 71053 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 10:15:37.100  INFO 71053 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 10:15:37.100  INFO 71053 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 10:15:37.161  INFO 71053 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 10:15:37.162  INFO 71053 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2022-07-25 10:15:37.444  INFO 71053 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 10:15:37.454  INFO 71053 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.457 seconds (JVM running for 6.707)
+2022-07-25 10:15:58.599  INFO 71053 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 10:15:58.599  INFO 71053 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 10:15:58.599  INFO 71053 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 11:02:12.958  INFO 74166 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 74166 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 11:02:12.960  INFO 74166 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 11:02:13.815  INFO 74166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 11:02:13.825  INFO 74166 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 11:02:13.826  INFO 74166 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 11:02:13.906  INFO 74166 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 11:02:13.906  INFO 74166 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2022-07-25 11:02:14.205  INFO 74166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 11:02:14.213  INFO 74166 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.823 seconds (JVM running for 7.133)
+2022-07-25 11:02:14.491  INFO 74172 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 74172 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 11:02:14.493  INFO 74172 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 11:02:15.127  INFO 74172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-25 11:02:15.135  INFO 74172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 11:02:15.136  INFO 74172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 11:02:15.192  INFO 74172 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 11:02:15.192  INFO 74172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2022-07-25 11:02:15.439  INFO 74172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/Subscribe'
+2022-07-25 11:02:15.446  INFO 74172 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.313 seconds (JVM running for 6.545)
+2022-07-25 11:02:23.687  INFO 74166 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 11:02:23.688  INFO 74166 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 11:02:23.688  INFO 74166 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 11:02:27.490  INFO 74172 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 11:02:27.491  INFO 74172 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 11:02:27.491  INFO 74172 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-25 11:03:49.154  INFO 74295 --- [main] ufrn.Subscribe.SubscribeApplication      : Starting SubscribeApplication using Java 18.0.2 on MacBook-Pro-de-Joao.local with PID 74295 (/Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe/target/classes started by joaomendes_ln in /Users/joaomendes_ln/Documents/UFRN/9º período/ProgDistribuida/Projeto_FIWARE/subscribe2/Subscribe)
+2022-07-25 11:03:49.157  INFO 74295 --- [main] ufrn.Subscribe.SubscribeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 11:03:49.853  INFO 74295 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-25 11:03:49.861  INFO 74295 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 11:03:49.861  INFO 74295 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 11:03:49.926  INFO 74295 --- [main] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring embedded WebApplicationContext
+2022-07-25 11:03:49.926  INFO 74295 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 731 ms
+2022-07-25 11:03:50.180  INFO 74295 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/Subscribe'
+2022-07-25 11:03:50.186  INFO 74295 --- [main] ufrn.Subscribe.SubscribeApplication      : Started SubscribeApplication in 6.423 seconds (JVM running for 6.67)
+2022-07-25 11:04:03.649  INFO 74295 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/Subscribe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 11:04:03.650  INFO 74295 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 11:04:03.651  INFO 74295 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
